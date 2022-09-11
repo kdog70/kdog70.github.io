@@ -18,12 +18,6 @@
   color: #cccccc;
 }
 
-.footer-contato,
-a,
-li {
-  color: #ffffff;
-  text-decoration: none;
-}
 
 .footer-contato li {
   font-weight: normal;
@@ -34,13 +28,20 @@ li {
 
 .footer-contato a{
   margin-left: 40px;
+ 
 } 
 
 .contato-item {
   display: flex;
   align-items: center;
+  margin-left: 40px;
   height: 40px;
   gap: 8px;
+}
+
+.contato-item li,a{
+  text-decoration: none;
+  color: #c787c5;
 }
 
 .footer-copy {
