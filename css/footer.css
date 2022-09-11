@@ -10,28 +10,6 @@
   grid-template-columns: 1fr 1fr;
   gap: 100px;
   align-items: center;
-  position: relative;
-}
-
-.footer-container li::before {
-  content: "";
-  display: block;
-  width: 24px;
-  height: 24px;
-  position: absolute;
-
-}
-
-.email::before {
-  background: url("../img/email.svg") no-repeat center;
-  left: 632px;
-  top: 118px;
-}
-
-.fone::before {
-  background: url("../img/telefone.svg") no-repeat center;
-  left: 632px;
-  top: 170px;
 }
 
 .footer-texto {
@@ -40,16 +18,29 @@
   color: #cccccc;
 }
 
+.footer-contato,
+a,
+li {
+  color: #ffffff;
+  text-decoration: none;
+}
+
 .footer-contato li {
   font-weight: normal;
   font-size: 1.25rem;
   line-height: 1.1;
-  color: #ffffff;
   margin-bottom: 30px;
 }
 
-.footer-contato li a {
-  color: #ffffff;
+.footer-contato a{
+  margin-left: 40px;
+} 
+
+.contato-item {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  gap: 8px;
 }
 
 .footer-copy {
@@ -65,13 +56,13 @@
   }
   .footer-contato li {
     font-size: 1rem;
+    margin-left: 40px;
   }
+
 }
 
 @media (max-width: 400px) {
   .footer-texto {
     font-size: 1.125rem;
   }
-  
-  
 }
