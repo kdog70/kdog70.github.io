@@ -18,7 +18,6 @@
   color: #cccccc;
 }
 
-
 .footer-contato li {
   font-weight: normal;
   font-size: 1.25rem;
@@ -26,10 +25,9 @@
   margin-bottom: 30px;
 }
 
-.footer-contato a{
+.footer-contato a {
   margin-left: 40px;
- 
-} 
+}
 
 .contato-item {
   display: flex;
@@ -39,9 +37,14 @@
   gap: 8px;
 }
 
-.contato-item li,a{
+.contato-item li,
+a {
   text-decoration: none;
   color: #c787c5;
+}
+
+.contato-item a:hover {
+  color: #ffffff;
 }
 
 .footer-copy {
@@ -59,7 +62,6 @@
     font-size: 1rem;
     margin-left: 40px;
   }
-
 }
 
 @media (max-width: 400px) {
